@@ -1,0 +1,20 @@
+# Runtime data: bare clones, zip uploads, the analysis database
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# The built dashboard IS committed (frontend/dist) so the app runs with
+# Python alone; only rebuild it when you change frontend/src.
+
+# Tooling / OS noise
+.aicoding-chat-workspace
+.DS_Store
+*.log
